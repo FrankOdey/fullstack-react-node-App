@@ -9,7 +9,7 @@ function App() {
 
  async function getPeople() {
    const res = await  fetch(`${BASE_URL}/?count=${count}`);
-   const resData = await res.json()
+   const resData = await res.json();
    setPeople(resData.data)
 
   }
