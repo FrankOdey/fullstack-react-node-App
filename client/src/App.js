@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { BASE_URL } from './index';
+import {BASE_URL} from './index';
 
 function App() {
   const [count, setCount] = React.useState(0)

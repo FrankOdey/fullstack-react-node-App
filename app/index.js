@@ -5,7 +5,7 @@ axios = require('axios')
 
 const app = express();
 
-const origin = process.env.NODE_ENV !== 'production' ? 'http://localhost:3000' : 'prod-url'
+const origin = process.env.NODE_ENV !== 'production' ? "http://localhost:3000" : "https://peoplefetcher.netlify.com";
 
 app.use(express.json());
 app.use(morgan('dev'));
